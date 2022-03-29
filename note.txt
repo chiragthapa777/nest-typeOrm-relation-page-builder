@@ -1,0 +1,6 @@
+npm i --save @nestjs/typeorm typeorm pg     
+set up ormconfig.json
+set scripts in package.json
+npm run migration:generate -- user-table-no-age
+npm run migration:run  
+npm run migration:revert  
